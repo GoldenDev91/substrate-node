@@ -1,0 +1,24 @@
+tian@ubuntu:~/Golden/substrate-node-template$ ./target/release/node-template key generate --scheme Sr25519 --password-interactive
+Key password: 
+Secret phrase:       roof cheap defense away script clutch leopard dune call hen winner bridge
+  Network ID:        substrate
+  Secret seed:       0x71d74ca5a9abed9816b7e2a94e6ea915a9e368c69ddd33496a0e734dd7bb5c12
+  Public key (hex):  0x70c41a5e5e9cf41375541d230c75189d5f34cf8d2ae7e9125032672dd38adf17
+  Account ID:        0x70c41a5e5e9cf41375541d230c75189d5f34cf8d2ae7e9125032672dd38adf17
+  Public key (SS58): 5EcZUWBFaRgC7rLv7DfrPt3TTPtz56SGYceCb62Z5NpswPFH
+  SS58 Address:      5EcZUWBFaRgC7rLv7DfrPt3TTPtz56SGYceCb62Z5NpswPFH
+
+Sr for aura	
+
+
+tian@ubuntu:~/Golden/substrate-node-template$ ./target/release/node-template key inspect --password-interactive --scheme Ed25519 "roof cheap defense away script clutch leopard dune call hen winner bridge"
+Key password: 
+Secret phrase:       roof cheap defense away script clutch leopard dune call hen winner bridge
+  Network ID:        substrate
+  Secret seed:       0x71d74ca5a9abed9816b7e2a94e6ea915a9e368c69ddd33496a0e734dd7bb5c12
+  Public key (hex):  0xf25c40aed5f3dc494bfc447e8b5445e1d6da38c2a3bf59559c14529c4299e65a
+  Account ID:        0xf25c40aed5f3dc494bfc447e8b5445e1d6da38c2a3bf59559c14529c4299e65a
+  Public key (SS58): 5HYUrFjpuF6ZiRsDWSoDDGEdDttToVtf7jXW2XSwazthHwYa
+  SS58 Address:      5HYUrFjpuF6ZiRsDWSoDDGEdDttToVtf7jXW2XSwazthHwYa
+  
+ed for grandpa

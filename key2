@@ -1,0 +1,20 @@
+tian@ubuntu:~/Golden/substrate-node-template$ ./target/release/node-template key generate --scheme Sr25519 --password-interactive
+Key password: 
+Secret phrase:       raccoon claim margin romance physical gossip abuse save metal board help wolf
+  Network ID:        substrate
+  Secret seed:       0x863883925cad48da50d7abee0b0451f69bdb596dc56435ede6d4fed8cae9ae0b
+  Public key (hex):  0x74442ec50a93652537698f70e6015ed42964a62e9fd6f5d9217afba5ec399448
+  Account ID:        0x74442ec50a93652537698f70e6015ed42964a62e9fd6f5d9217afba5ec399448
+  Public key (SS58): 5Eh9fbcHqkGjnEKb48kHfF6G5r7k7YUYCp6RSMAjTZEvGWav
+  SS58 Address:      5Eh9fbcHqkGjnEKb48kHfF6G5r7k7YUYCp6RSMAjTZEvGWav
+
+tian@ubuntu:~/Golden/substrate-node-template$ ./target/release/node-template key inspect --password-interactive --scheme Ed25519 "raccoon claim margin romance physical gossip abuse save metal board help wolf"
+Key password: 
+Secret phrase:       raccoon claim margin romance physical gossip abuse save metal board help wolf
+  Network ID:        substrate
+  Secret seed:       0x863883925cad48da50d7abee0b0451f69bdb596dc56435ede6d4fed8cae9ae0b
+  Public key (hex):  0x3b7850d703dcd1f7970057b8f0a67fd6c2e9b3a6c5edd43fcc423486c28e2bcf
+  Account ID:        0x3b7850d703dcd1f7970057b8f0a67fd6c2e9b3a6c5edd43fcc423486c28e2bcf
+  Public key (SS58): 5DQgRXH8jabkkgkALFUaEm9nj8MvXp9uTcKvUeXx1rbqkxVF
+  SS58 Address:      5DQgRXH8jabkkgkALFUaEm9nj8MvXp9uTcKvUeXx1rbqkxVF
+
